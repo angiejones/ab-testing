@@ -1,0 +1,18 @@
+<html>  
+<head>
+
+<script src="http://code.jquery.com/jquery-3.4.1.js"></script> 
+<script> 
+$(function() {
+   if(Math.floor(Math.random() * 10) < 5) $("#variation").load("a.html"); 
+   else $("#variation").load("b.html"); 
+});
+</script>
+
+</head>  
+<body>
+
+<div id="variation"></div>
+
+</body>
+</html>
